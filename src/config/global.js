@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Composición y edición ',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'Con el estudio de este componente, el aprendiz estará en capacidad de realizar composición de efectos visuales y crear productos mediante la manipulación y combinación de elementos de distintas fuentes y herramientas digitales. Podrá generar piezas homogéneas con sensación de unidad en la imagen resultante: imágenes fijas, imágenes en movimiento, audiovisuales y/o páginas web.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -24,116 +23,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'La composición digital',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Tipos de composición',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Reglas de la composición digital',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Técnicas de composición',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Software de composición',
+            hash: 't_1_4',
           },
         ],
       },
@@ -141,90 +56,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Edición de audio y vídeo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Edición de video',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Edición de audio',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -271,139 +116,154 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Armenteros, M. (2011). <em>Composición digital</em>. EB Archivos.',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Cámara, S. (2006). <em>El dibujo animado.</em> Parramón Ediciones, S.A.',
+      link: '',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Fernández, F. y Martínez, J. (1999). <em>Manual básico de lenguaje audiovisual y narrativa audiovisual</em>. Paidós.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Flórez, H. M. (2019). <em>Narrativa visual: Layout y composición como un storytelling</em>. Universidad Mayor.',
+      link: '',
+    },
+    {
+      referencia: 'La Escala de Planos. (2010). Universitat de Valencia. ',
+      link: 'https://www.uv.es/asamar4/exelearning/24_la_escala_de_planos.html',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Marqués, P. (1995). <em>Introducción al lenguaje audiovisual.</em>',
+      link: 'http://peremarques.pangea.org/avmulti.htm#av',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Millerson, G. (1983). <em>Técnicas de Realización y Producción en televisión</em>. IORTV.',
+      link: '',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Racionero, A. (2008). <em>El lenguaje cinematográfico</em>. Editorial UOC.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Sánchez, J. (2016). <em>>nálisis de la composición digital para la realización de efectos digitales en los casos de The Martian (2015) y Mad Max: Fury Road (2015.)</em> Universidad Politécnica de Valencia.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Composición',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Creación de productos a partir de manipular y combinar elementos de diferentes fuentes o herramientas digitales, con el fin de generar piezas homogéneas que transmitan la sensación de unidad.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Campo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es el espacio definido por el ángulo de visión de la cámara y, por lo tanto, es el que contiene todos los elementos que comprende el encuadre. En el campo se identifica todo aquello que aparece en el cuadro, todo lo que vemos y escuchamos en pantalla.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Diseño de sonido',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Consiste en la creación de todo el ambiente sonoro para un medio audiovisual ya sea cine, tv, web-streaming.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Encuadre ',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Son todos los elementos capturados por el ángulo de visión del objetivo de la cámara y que, en consecuencia, son el contenido del campo. Está delimitado por sus cuatro lados; el fondo más el límite de la cámara. En otras palabras es el lienzo de trabajo.',
     },
     {
-      termino: 'Moda',
+      termino: 'Narrativa audiovisual',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Las imágenes en movimiento, asumen el espacio en dos dimensiones y componen la realidad mediante encuadres o planos fijos y puntos de vista o ángulos de visión.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Reglas de la composición',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Conjunto de directrices orientadas a conservar cierta perspectiva con la manera en que se produce la visión humana y que, aplicadas a la composición, producen mejores resultados',
     },
     {
-      termino: 'DIseño',
+      termino: '<em>Software</em> de composición por nodos',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'La distribución de los elementos del programa es parecida; existe un visor y un panel de propiedades, pero la línea de tiempos con nodos difiere bastante de la de las capas.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'U-tad. (2021). ¿Sabes qué es la Composición Digital? ',
+      tipo: 'Página Web',
+      link: 'https://u-tad.com/sabes-la-composicion-digital/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+        'Cortés, J. (2021). Rompiendo las reglas de la Composición. Notodoanimacion. ',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        'https://www.notodoanimacion.es/rompiendo-las-reglas-de-la-composicion/',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'La ciencia del cine (2020). Reglas de Composición Cinematográficas. [Video]. YouTube. ',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=t5MPOqnt60U',
+    },
+    {
+      texto:
+        'Ávila, L. (2017). Técnicas y principios de composición fotográfica en cine y series. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=I7sS54EIEAg',
+    },
+    {
+      texto:
+        'notodoanimacion (2020). Técnicas de Composición Digital para VFX ❤️ Masterclass ONLINE. [Video].',
+      tipo: 'Video',
+      link: 'https://youtu.be/-XlIcITJbOU',
+    },
+    {
+      texto:
+        'Pueyo, A. (2020). Webinar: Técnicas de Composición Digital. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=SxDTwFLq7Fk',
+    },
+    {
+      texto:
+        'Cortés, J. (2021). Los 8 Mejores Programas de Composición Digital. [Web log post]. Notodoanimacion. ',
+      tipo: 'Pagina web',
+      link:
+        'https://digitalsynopsis.com/design/cinema-palettes-famous-movie-colors/',
+    },
+    {
+      texto:
+        'Notodoanimacion. (2019). Tutoriales Digital Matte Painting – El Arte de Jaime Jasso. [Web log post]. ',
+      tipo: 'Blog ',
+      link:
+        'https://www.notodoanimacion.es/tutoriales/tutoriales-de-matte-painting/',
+    },
+    {
+      texto:
+        'Hoy Grabo (2019). Diseño de sonido para audiovisuales: qué es y cómo se hace. [Video]. YouTube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=CkiPtW8IZT0',
+    },
+    {
+      texto: 'Treintaycinco. (s.f.). Talent Makers 35mm.',
+      tipo: 'Página web',
+      link: 'https://35mm.es/fases-etapas-postproduccion-audio/',
+    },
+    {
+      texto:
+        'Valerga, A. (2020). Los mejores programas de edición de audio. [Web log post]. Crehana.',
+      tipo: 'Blog',
+      link:
+        'https://www.crehana.com/pe/blog/video/mejores-programas-edicion-audio/#grg-band',
     },
   ],
   creditos: {
@@ -421,59 +281,81 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Paulo César Hernández',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capita',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
