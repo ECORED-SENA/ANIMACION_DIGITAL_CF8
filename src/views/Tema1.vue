@@ -18,15 +18,13 @@
     p.mb-5 Algunas generalidades importantes para tener en cuenta, sobre la composición digital, son:
     SlyderB.mb-5(:datos="datosSlyder")
     .contenedor_amarillo.bg--4-claro.p-5.mb-5
-      .row.justify-content-center
+      .row.justify-content-center.align-items-center
         .col-lg-6.mb-3
           .titulo-segundo.color-primario
             h3 ¿Qué es la Composición Digital para VFX? 
           p.mb-3 Amplíe el concepto y utilidad de la composición digital, visualizando el vídeo que aquí se propone. Tome nota de los aspectos más relevantes.
-          .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-25
-            p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Clic en el video
         .col-lg-4
-          a(href="https://www.youtube.com/watch?v=QQ8_7_X_QXQ" target="_blank")
+          a(href="https://www.youtube.com/watch?v=o-Xjedov3y8&ab_channel=U-tad" target="_blank")
             img(src="@/assets/curso/7.jpg")
     #t_1_1.titulo-segundo.color-secundario
       h2 1.1 Tipos de composición 
@@ -79,7 +77,7 @@
       | Otros elementos que determinan el diseño final y que tienen relación con la colocación de la cámara son:
     .row.mb-5.justify-content-center
       .col-lg-9
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-primario
           div.row(numero="1" titulo="Distancia focal").p-4.align-items-center
             .col-lg-8
               p La distancia focal, según el objetivo y el encuadre elegido, ayuda a identificar profundidad de campo a través del gran angular y facilita la incorporación de muchos elementos. 
@@ -117,32 +115,35 @@
     p.mb-5 De muchas de estas reglas se nutre la composición para las imágenes en movimiento, como las que se generan a través de la animación digital que, aunque incluyen una perspectiva técnica, pretenden ayudar a construir el mensaje a través de la creación de la narrativa visual del producto.
       br
       br
-      |Aunque existen decenas de reglas, algunas de las más usadas son las siguientes: 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      |Aunque existen decenas de reglas, algunas de las más usadas son las siguientes:
+    .bg-video.p-4.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .contenedor_amarillo.bg--4-claro.p-5.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3
           .titulo-segundo.color-primario
             h3 Conozca más sobre la aplicación de estas reglase en cine y video y estudie algunos ejemplos, visualizando los vídeos que aquí se proponen. Explore cada uno de ellos y procure llevar registro, en su libreta personal de apuntes, de los aspectos más relevantes que encuentre:
-          a(href="https://www.youtube.com/watch?v=QQ8_7_X_QXQ" target="_blank")
+          a(href="https://www.youtube.com/watch?v=t5MPOqnt60U" target="_blank")
             .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Reglas de Composición Cinematográficas.
-          a(href="https://www.youtube.com/watch?v=QQ8_7_X_QXQ" target="_blank")
+          a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
             .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Técnicas y principios de composición fotográfica en cine y series.
-          a(href="https://www.youtube.com/watch?v=QQ8_7_X_QXQ" target="_blank")
+          a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
             .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center MEJORA TUS FOTOS Y VIDEOS con este simple TRUCO (composición).
-          a(href="https://www.youtube.com/watch?v=QQ8_7_X_QXQ" target="_blank")
+          a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
             .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Mr. Robot: Encuadres que rompen las reglas de composición (Análisis).
-          a(href="https://www.youtube.com/watch?v=QQ8_7_X_QXQ" target="_blank")
+          a(href="https://www.youtube.com/watch?v=zkxLh4op_oo&t=255s" target="_blank")
             .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center How To Break The Rules Of Composition.
@@ -298,10 +299,7 @@
                 br
                 br
                 | En el video que se propone explore breves explicaciones, con ejemplos reales, de la manera como se aplican las distintas técnicas en el <i><b>software</b></i> Nuke: 
-
-              //TODO PENDIENTE POR AGREGAR LINK  
-
-              a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=SxDTwFLq7Fk" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -316,23 +314,16 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Actualmente, la mayoría de los softwares que se usan en la industria audiovisual combinan, en menor o mayor medida, herramientas de todas las fases de la postproducción. Esto quiere decir que, un software especializado en edición de vídeo como Adobe Premiere, incluye opciones como el chroma o la rotoscopia que, normalmente, están disponibles en la composición digital, pero también movimiento de títulos u otros objetos que pertenecen a la animación.
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-secundario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/42.svg', alt='Texto que describa la imagen')
-        .text-system.text-center
-          h2 Sabía que...
-          p Igualmente, existen softwares enfocados en la composición digital como After Effects o Hitfilm Pro, que tienen sus propias herramientas de edición de video.
-      .col-md.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/curso/43.svg', alt='Texto que describa la imagen')
-        .text-white.text-center  
-          h2 ¡Importante! 
-          p Esta información es importante en el momento de elegir las herramientas con las que se finalizarán los proyectos en postproducción. Es necesario plantearse qué se va a hacer y qué tipo de editor es el más apropiado.
+    .bg-carrousel.d-flex.justify-content-center.align-items-center.mb-4
+      h2.h1.text-center.text-white Sabías que...
+      .bg-carrousel_content.px-5.py-5.justify-content-center.d-flex.align-items-center
+        .text-center.w-75
+          p.fw-bold.mb-0 Igualmente, existen softwares enfocados en la composición digital como After Effects o Hitfilm Pro, que tienen sus propias herramientas de edición de video.
+    .bg-carrousel2.d-flex.justify-content-center.align-items-center.mb-5
+      h2.h1.text-center.text-white Sabías que...
+      .bg-carrousel2_content.px-5.py-5.justify-content-center.d-flex.align-items-center
+        .text-center.w-75
+          p.fw-bold.mb-0 Esta información es importante en el momento de elegir las herramientas con las que se finalizarán los proyectos en postproducción. Es necesario plantearse qué se va a hacer y qué tipo de editor es el más apropiado.
     p.mb-5 Para las tareas de composición digital existen softwares de composición especializados de dos tipos: software que se basa en la composición multicapa y software que se basa en la composición por nodos. 
       br
       br
@@ -341,7 +332,6 @@
       .col-lg-10
         .tarjeta.tarjeta--gris.p-4
           PasosB.color-primario
-
             .row(titulo="").px-4
               .col-md-5
                 figure
@@ -393,27 +383,6 @@
                 p Conjunto de herramientas CG totalmente interactivo para crear escenarios 3D, desarrollar looks, iluminar, renderizar y componer. Fue diseñado para agilizar el flujo de trabajo de artistas y permitirles trabajar e interactuar constantemente en su imagen final, con efectos completos y en tiempo real. 
     p.mb-5 De igual manera, es importante saber que algunos de los programas más utilizados para las labores de composición digital son:        
     SlyderB.mb-5(:datos="datosSlyder2")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-  
 </template>
 
 <script>
@@ -538,9 +507,13 @@ export default {
     i:last-child
       display: block
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
-  background-color: #fff3cc
+  background-color: #f8e8d5
+
+
 .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-  background-color: #edc596
+  background-color: $color-primario
+  span
+    color: white
 .pointer
   transition: background-color .3s ease-in-out
   &:hover
@@ -557,4 +530,42 @@ export default {
   outline: 4px white solid
   span
     color: #fff
+.bg-carrousel
+  position: relative
+  background-image: url('../assets/curso/SQ.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  width: 100%
+  min-height: 207px
+  overflow: hidden
+  &:hover
+    .bg-carrousel_content
+      left: 0
+  &_content
+    width: 100%
+    background-color: #ffe799
+    transition: left .3s ease-in-out
+    position: absolute
+    height: 100%
+    left: 150%
+.bg-carrousel2
+  position: relative
+  background-image: url('../assets/curso/IM.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  width: 100%
+  min-height: 207px
+  overflow: hidden
+  &:hover
+    .bg-carrousel2_content
+      left: 0
+  &_content
+    width: 100%
+    background-color: #ffe799
+    transition: left .3s ease-in-out
+    position: absolute
+    height: 100%
+    left: 150%
 </style>
