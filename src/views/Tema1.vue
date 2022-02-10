@@ -34,7 +34,8 @@
         p.text-center Gerald Millerson, autor de varios libros y publicaciones referentes a la producción y realización en televisión, distingue tres tipos de composición: 
     .row.mb-5
       .col-lg-4.mb-3
-        .tarjetas-up
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/9.jpg' alt='AvatarTop' style='width:400px')
           .tarjetas-up_card.bg--2-claro.p-4
             .title.d-flex.align-items-center.mb-4
@@ -162,7 +163,8 @@
     p.mb-5 Sabiendo esto, a continuación, se explican algunas de las técnicas de composición más utilizadas en efectos visuales (VFX):
     .row.mb-3
       .col-lg-6.mb-3
-        .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal1 = true")
+        .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100.position-relative(@click="modal1 = true" @mouseover="mostrarIndicador = false")
+          .indicador--click(v-if="mostrarIndicador")
           img(src="@/assets/curso/21.svg" style="width:155px").me-2
           .textos
             h5 Planar Tracking (2.5D) 
@@ -314,12 +316,14 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Actualmente, la mayoría de los softwares que se usan en la industria audiovisual combinan, en menor o mayor medida, herramientas de todas las fases de la postproducción. Esto quiere decir que, un software especializado en edición de vídeo como Adobe Premiere, incluye opciones como el chroma o la rotoscopia que, normalmente, están disponibles en la composición digital, pero también movimiento de títulos u otros objetos que pertenecen a la animación.
-    .bg-carrousel.d-flex.justify-content-center.align-items-center.mb-4
+    .bg-carrousel.d-flex.justify-content-center.align-items-center.mb-4(@mouseover="mostrarIndicador = false")
+      .indicador--hover(v-if="mostrarIndicador")
       h2.h1.text-center.text-white Sabías que...
       .bg-carrousel_content.px-5.py-5.justify-content-center.d-flex.align-items-center
         .text-center.w-75
           p.fw-bold.mb-0 Igualmente, existen softwares enfocados en la composición digital como After Effects o Hitfilm Pro, que tienen sus propias herramientas de edición de video.
-    .bg-carrousel2.d-flex.justify-content-center.align-items-center.mb-5
+    .bg-carrousel2.d-flex.justify-content-center.align-items-center.mb-5(@mouseover="mostrarIndicador = false")
+      .indicador--hover(v-if="mostrarIndicador")
       h2.h1.text-center.text-white Sabías que...
       .bg-carrousel2_content.px-5.py-5.justify-content-center.d-flex.align-items-center
         .text-center.w-75
@@ -390,6 +394,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
+    mostrarIndicador: true,
     modal1: false,
     modal2: false,
     modal3: false,
