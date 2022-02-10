@@ -525,7 +525,7 @@ export default {
     cursor: pointer
     background-color: #ffda66 !important
 .modal-a__content
-  background-image: url('../assets/curso/bg-2.svg')
+  background-image: url('../assets/curso/bg-3.svg')
   background-repeat: no-repeat
   background-size: cover
   background-position: center
