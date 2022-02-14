@@ -129,23 +129,23 @@
           .titulo-segundo.color-primario
             h3 Conozca más sobre la aplicación de estas reglase en cine y video y estudie algunos ejemplos, visualizando los vídeos que aquí se proponen. Explore cada uno de ellos y procure llevar registro, en su libreta personal de apuntes, de los aspectos más relevantes que encuentre:
           a(href="https://www.youtube.com/watch?v=t5MPOqnt60U" target="_blank")
-            .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
+            .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Reglas de Composición Cinematográficas.
           a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
-            .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
+            .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Técnicas y principios de composición fotográfica en cine y series.
           a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
-            .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
+            .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center MEJORA TUS FOTOS Y VIDEOS con este simple TRUCO (composición).
           a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
-            .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
+            .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Mr. Robot: Encuadres que rompen las reglas de composición (Análisis).
           a(href="https://www.youtube.com/watch?v=zkxLh4op_oo&t=255s" target="_blank")
-            .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
+            .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center How To Break The Rules Of Composition.
         .col-lg-4
@@ -324,7 +324,7 @@
           p.fw-bold.mb-0 Igualmente, existen softwares enfocados en la composición digital como After Effects o Hitfilm Pro, que tienen sus propias herramientas de edición de video.
     .bg-carrousel2.d-flex.justify-content-center.align-items-center.mb-5(@mouseover="mostrarIndicador = false")
       .indicador--hover(v-if="mostrarIndicador")
-      h2.h1.text-center.text-white Sabías que...
+      h2.h1.text-center.text-white Importante
       .bg-carrousel2_content.px-5.py-5.justify-content-center.d-flex.align-items-center
         .text-center.w-75
           p.fw-bold.mb-0 Esta información es importante en el momento de elegir las herramientas con las que se finalizarán los proyectos en postproducción. Es necesario plantearse qué se va a hacer y qué tipo de editor es el más apropiado.

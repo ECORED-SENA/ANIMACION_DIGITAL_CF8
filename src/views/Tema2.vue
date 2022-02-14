@@ -491,11 +491,11 @@
           .titulo-segundo.color-primario
             h3 Para finalizar este contenido, se le recomienda visitar los siguientes enlaces para ampliar su conocimiento y apropiación sobre softwares para edición de sonido: 
           a(href="https://www.crehana.com/pe/blog/video/mejores-programas-edicion-audio/#grg-band" target="_blank")
-            .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
+            .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Edición de audio
           a(href="https://www.youtube.com/watch?v=uN5rYk9dYek" target="_blank")
-            .bg--1-claro.display-block.rounded-2.p-2.c--1.d-flex.w-100.mb-2.hover
+            .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Audio After effects
         .col-lg-4
