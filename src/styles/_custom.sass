@@ -3,20 +3,28 @@
 
   .animation-girl
     position: absolute
-    width: 700px
+    width: 830px
     height: 245px
     background-image: url('../assets/curso/animation-banner.svg')
     background-size: 730px
     animation: jump 1.5s steps(6) infinite
     transform: scale(.37) perspective(40cm) rotateX(0deg) rotateY(-30deg) rotateZ(-3deg) 
     transform-style: preserve-3d
-    top: 50px
-    left: -101px
-    @media (max-width: $bp-max-lg)
+    top: 90px
+    left: -122px
+    @media (max-width: 1394px)
+      width: 950px
       transform: scale(.26) perspective(40cm) rotateX(0deg) rotateY(-30deg) rotateZ(-3deg) 
       transform-style: preserve-3d
-      top: -10px
-      left: -176px
+      top: 60px
+      left: -230px
+
+    @media (max-width: $bp-max-lg)
+      width: 800px
+      transform: scale(.26) perspective(40cm) rotateX(0deg) rotateY(-30deg) rotateZ(-3deg) 
+      transform-style: preserve-3d
+      top: 20px
+      left: -195px
 
   
 @keyframes jump

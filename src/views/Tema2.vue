@@ -63,7 +63,7 @@
               figure
                 img(src='@/assets/curso/59.svg', alt='Texto que describa la imagen')
             .col-md-8
-              p Manera de narrar completamente una acción. Aunque la acción sucede en diferentes lugares y momentos, se mantiene una línea argumental. Su duración depende de su importancia dentro del guion. La secuencia se compone de escenas y estas, a su vez, de planos. 
+              p Manera de narrar completamente una acción. Aunque la acción sucede en diferentes lugares y momentos, se mantiene una línea argumental. Su duración depende de su importancia dentro del guión. La secuencia se compone de escenas y estas, a su vez, de planos. 
           .row(titulo="Planos").px-5.justify-content-center.align-items-center
             .col-md-4.mb-4.mb-md-0
               figure
@@ -87,14 +87,14 @@
               figure
                 img(src='@/assets/curso/63.svg', alt='Texto que describa la imagen')
             .col-md-8
-              p Surgen cuando la cámara hace un seguimiento del espacio y del movimiento de los personajes. Estos planos son, entre otros: travelling, panorámica y plano grúa.
+              p Surgen cuando la cámara hace un seguimiento del espacio y del movimiento de los personajes. Estos planos son, entre otros: <i>travelling</i>, panorámica y plano grúa.
     p.mb-5 Algunos tipos de plano, según tamaño, funciones, características de movimiento e imagen, son:
     .tarjetas-up.mb-5
       .tarjetas-up__content.p-4.d-flex.align-items-center(@mouseover="mostrarIndicador = false")
         .indicador--hover(v-if="mostrarIndicador")
         .tarjetas-up__content__image: img(src='@/assets/curso/64.jpg')
         .text-center
-          p.fw-bold Travelling
+          p.fw-bold <i>Travelling</i>
           p Plano que describe la cámara al acompañar al personaje o elemento durante su desplazamiento de un lugar a otro.
       .tarjetas-up__content.p-4.d-flex.align-items-center
         .tarjetas-up__content__image: img(src='@/assets/curso/65.jpg')
@@ -125,7 +125,7 @@
         .tarjetas-up__content__image: img(src='@/assets/curso/70.jpg')
         .text-center
           p.fw-bold Plano americano
-          p “Nació a partir de la necesidad del western, que en el plano medio tenía que incluir la pistola del cowboy. Este plano comprende, entonces, desde la pistola colgada debajo de la cintura hasta la cabeza entera del personaje”. 
+          p “Nació a partir de la necesidad del <i>western</i>, que en el plano medio tenía que incluir la pistola del <i>cowboy</i>. Este plano comprende, entonces, desde la pistola colgada debajo de la cintura hasta la cabeza entera del personaje”. 
       .tarjetas-up__content.p-4.d-flex.align-items-center
         .tarjetas-up__content__image: img(src='@/assets/curso/71.jpg')
         .text-center
@@ -170,48 +170,50 @@
     .row.mb-5.justify-content-center
       .col-lg-9
         LineaTiempoD.color-primario
-          div.row(numero="1" titulo="Final Cut Pro (Mac):").p-4.align-items-center
+          div.row(numero="1" titulo="<i>Final Cut Pro</i> (Mac):").p-4.align-items-center
             .col-lg-8
-              p Se establecen las posiciones y movimientos de cámara acorde a lo definido en el guión técnico y en el storyboard, de igual manera se dispone de la ubicación en el espacio de los elementos de la escena y los personajes.
+              p Se establecen las posiciones y movimientos de cámara acorde a lo definido en el guión técnico y en el <i>storyboard</i>, de igual manera se dispone de la ubicación en el espacio de los elementos de la escena y los personajes.
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/76.svg' style='border-radius: 25px')
           div.row(numero="2" titulo="Adobe Premiere Pro (Windows y Mac): ").p-4.align-items-center
             .col-lg-8
-              p es una de las mejores alternativas profesionales para sacar el máximo rendimiento a la edición de vídeo. Pertenece a la familia de productos de Adobe Creative Suite. 
+              p Es una de las mejores alternativas profesionales para sacar el máximo rendimiento a la edición de vídeo. Pertenece a la familia de productos de <i>Adobe Creative Suite</i>. 
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/77.svg' style='border-radius: 25px')
           div.row(numero="3" titulo="Adobe After Effects (Windows y Mac): ").p-4.align-items-center
             .col-lg-8
-              p es un complemento para Adobe Premiere Pro que, aunque requiere de un nivel algo avanzado, permite crear animaciones, gráficos 3D con movimiento y efectos para incluir en los vídeos dando un toque muy profesional.
+              p Es un complemento para Adobe Premiere Pro que, aunque requiere de un nivel algo avanzado, permite crear animaciones, gráficos 3D con movimiento y efectos para incluir en los vídeos dando un toque muy profesional.
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/78.svg' style='border-radius: 25px')
           div.row(numero="4" titulo="Avid Media Composer (Windows y Mac): ").p-4.align-items-center
             .col-lg-8
-              p a pesar de no ser tan popular en los estudios de posproducción profesional de cine y televisión es muy usado por su dinámico flujo de trabajo. 
+              p A pesar de no ser tan popular en los estudios de posproducción profesional de cine y televisión es muy usado por su dinámico flujo de trabajo. 
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/79.svg' style='border-radius: 25px')
-          div.row(numero="5" titulo="Pinnacle Studio (Windows): ").p-4.align-items-center
+          div.row(numero="5" titulo="<i>Pinnacle Studio (Windows):</i> ").p-4.align-items-center
             .col-lg-8
-              p es un <i>software</i> muy intuitivo y fácil de manejar.
+              p Es un <i>software</i> muy intuitivo y fácil de manejar.
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/80.svg' style='border-radius: 25px')
-          div.row(numero="6" titulo="Sony Vegas Pro (Windows): ").p-4.align-items-center
+          div.row(numero="6" titulo="<i>Sony Vegas Pro (Windows):</i> ").p-4.align-items-center
             .col-lg-8
-              p potente <i>software</i> con una estética que sigue la línea de Sony. También tiene una versión llamada <i>Movie Studio</i> para usuarios no tan avanzados.
+              p Potente <i>software</i> con una estética que sigue la línea de Sony. También tiene una versión llamada <i>Movie Studio</i> para usuarios no tan avanzados.
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/81.svg' style='border-radius: 25px')
-          div.row(numero="7" titulo="Corel VideoStudio (Windows): ").p-4.align-items-center
+          div.row(numero="7" titulo="<i>Corel VideoStudio (Windows):</i> ").p-4.align-items-center
             .col-lg-8
-              p una opción más a tener en cuenta entre los programas avanzados. Recientemente ha añadido la opción de capturar en vídeo la pantalla del ordenador, ideal para tutoriales.
+              p Una opción más a tener en cuenta entre los programas avanzados. Recientemente ha añadido la opción de capturar en vídeo la pantalla del ordenador, ideal para tutoriales.
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/82.svg' style='border-radius: 25px')
+    #t_2_2.titulo-segundo.color-acento-botones
+      h2 2.1 Edición de audio
     .contenedor-fondo.p-5.mb-4
       .row.justify-content-center
         .col-lg-8: img(src='@/assets/curso/83.png').mb-5.mt-5
@@ -243,24 +245,6 @@
             a.boton.color-acento-botones.indicador__container.text-system(@click="modal1 = true")
               span.fw-bold Ver mas 
               .indicador--click(v-if="mostrarIndicador")
-            ModalA(:abrir-modal.sync="modal1")
-              p.fw-bold 1. Arreglos
-              ul.lista-ul--color.vr
-                li 
-                  i.fas.fa-circle
-                  p  <b>Acompañamiento: </b> se comparan las tomas duplicadas de cada pista y se selecciona la mejor. También se pueden seleccionar las mejores partes de cada toma y combinarlas en una nueva sección.
-                li
-                  i.fas.fa-circle
-                  p <b>Reducción de ruido: </b>tiene como objetivo eliminar en la mayor medida posible los sonidos no deseados que puedan existir de fondo en una grabación (voces de fondo, pasos, respiraciones o simplemente el ruido ambiente).
-
-                li
-                  i.fas.fa-circle
-                  p <b>Edición de tempo: </b>corrigen las notas fuera de ritmo utilizando el método “cortar y pegar», que funciona bien en instrumentos de percusión o el método de «estiramiento de tiempo», que funciona bien en casi todos los instrumentos.
-
-                li
-                  i.fas.fa-circle
-                  p <b>Edición de tono: </b>  permite cambiar cualquier nota y “colocarla” en un nuevo tono, utilizando Auto-Tune o cualquier software similar. Normalmente se usa en voces, pero también funciona bien en la mayoría de los instrumentos melódicos.
-              
       .col-lg-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
@@ -272,7 +256,36 @@
             a.boton.color-acento-botones.indicador__container.text-system(@click="modal2 = true")
               span.fw-bold Ver mas 
               .indicador--click(v-if="mostrarIndicador")
-            ModalA(:abrir-modal.sync="modal2")
+            
+      .col-lg-4.mb-3
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/91.jpg' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.p-4
+            .title.d-flex.align-items-center
+              h4.mb-5 3. Masterización
+            p Una vez que se ha realizado todas estas tareas y la mezcla está finalizada, es momento de pasar a la última etapa, es decir al proceso de masterización que consiste en potenciar la mezcla y dejarla en un solo archivo estéreo.
+            a.boton.color-acento-botones.indicador__container.text-system(@click="modal3 = true")
+              span.fw-bold Ver mas 
+              .indicador--click(v-if="mostrarIndicador")
+    ModalA(:abrir-modal.sync="modal1")
+        p.fw-bold 1. Arreglos
+        ul.lista-ul--color.vr
+          li 
+            i.fas.fa-circle
+            p  <b>Acompañamiento: </b> se comparan las tomas duplicadas de cada pista y se selecciona la mejor. También se pueden seleccionar las mejores partes de cada toma y combinarlas en una nueva sección.
+          li
+            i.fas.fa-circle
+            p <b>Reducción de ruido: </b>tiene como objetivo eliminar en la mayor medida posible los sonidos no deseados que puedan existir de fondo en una grabación (voces de fondo, pasos, respiraciones o simplemente el ruido ambiente).
+
+          li
+            i.fas.fa-circle
+            p <b>Edición de tempo: </b>corrigen las notas fuera de ritmo utilizando el método “cortar y pegar», que funciona bien en instrumentos de percusión o el método de «estiramiento de tiempo», que funciona bien en casi todos los instrumentos.
+
+          li
+            i.fas.fa-circle
+            p <b>Edición de tono: </b>  permite cambiar cualquier nota y “colocarla” en un nuevo tono, utilizando <i>Auto-Tune</i> o cualquier <i>software</i> similar. Normalmente se usa en voces, pero también funciona bien en la mayoría de los instrumentos melódicos.
+    ModalA(:abrir-modal.sync="modal2")
               h4.mb-5 2. Proceso de Mezcla
               ul.lista-ul--color.vr
                 li 
@@ -295,23 +308,12 @@
                 li 
                   i.fas.fa-circle
                   p  <b>Automatización: </b> permite cambiar la configuración en diferentes puntos de la canción, para darle a la mezcla una sensación de movimiento.
-      .col-lg-4.mb-3
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/91.jpg' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.p-4
-            .title.d-flex.align-items-center
-              h4.mb-5 3. Masterización
-            p Una vez que se ha realizado todas estas tareas y la mezcla está finalizada, es momento de pasar a la última etapa, es decir al proceso de masterización que consiste en potenciar la mezcla y dejarla en un solo archivo estéreo.
-            a.boton.color-acento-botones.indicador__container.text-system(@click="modal3 = true")
-              span.fw-bold Ver mas 
-              .indicador--click(v-if="mostrarIndicador")
-            ModalA(:abrir-modal.sync="modal3")
-              h4.mb-5 3. Masterización
-              ul.lista-ul--color.vr
-                li 
-                  i.fas.fa-circle
-                  p  <b>Dato curioso: </b> suele afirmarse que la primera de todas las masterizaciones de la historia, ocurrió el laboratorio del conocido <i>Thomas Edison</i> de quien, se presume, debió producir el primer cilindro listo para ser usado en el fonógrafo; esto, para lograr la reproducción de un sonido grabado, previamente, a través del mismo artefacto.
+    ModalA(:abrir-modal.sync="modal3")
+      h4.mb-5 3. Masterización
+      ul.lista-ul--color
+        li.vr 
+          i.fas.fa-circle
+          p  <b>Dato curioso: </b> suele afirmarse que la primera de todas las masterizaciones de la historia, ocurrió el laboratorio del conocido <i>Thomas Edison</i> de quien, se presume, debió producir el primer cilindro listo para ser usado en el fonógrafo; esto, para lograr la reproducción de un sonido grabado, previamente, a través del mismo artefacto.
     h3 Maqueta de sonido
     .row.mb-5.align-items-center
       .col-lg-6
@@ -331,7 +333,7 @@
         tbody
           tr.vertical-align-initial
             td
-              p Son una parte importante de todo el diseño sonoro de una producción pues como se mencionó anteriormente, estos definen diversos aspectos de la animación como el timing o los acentos en el <i>acting</i> del personaje.
+              p Son una parte importante de todo el diseño sonoro de una producción pues como se mencionó anteriormente, estos definen diversos aspectos de la animación como el <i>timing</i> o los acentos en el <i>acting</i> del personaje.
             td 
               p En este aspecto podemos encontrar 2 grandes categorías, el sonido ambiente y los efectos especiales:
                 br
@@ -368,7 +370,7 @@
       .col-lg-8
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/1.jpg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/93.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 La masterización en el audio es el último paso para poner en equilibrio todos los elementos que en ella se combinan. De allí parten todas las copias de dicho audio finalizadas para diferentes formatos o plataformas, como también da consistencia y uniformidad entre las diferentes pistas que componen el producto, dotándolo de claridad y coherencia.
@@ -382,22 +384,22 @@
           .iconos.mb-4
             img(src='@/assets/curso/94.svg' style='width: 120px')
             img(src='@/assets/curso/95.svg' style='width: 120px')
-          h5 Maximización de la sonoridad:
-          p se consigue a través de una mayor compresión y limitación. De esta forma el nivel promedio de señal en el tiempo es lo más alto posible, sin sacrificar demasiado el rango dinámico.
+          h5 Maximización de la sonoridad
+          p Se consigue a través de una mayor compresión y limitación. De esta forma el nivel promedio de señal en el tiempo es lo más alto posible, sin sacrificar demasiado el rango dinámico.
       .col-lg-4
         .tarjeta.tarjetas-a.p-5.h-100
           .iconos.mb-4
             img(src='@/assets/curso/94.svg' style='width: 120px')
             img(src='@/assets/curso/95.svg' style='width: 120px')
           h5 Balance de frecuencias
-          p se realiza a través de EQ adicionales y un proceso conocido como compresión multibanda, que puede comprimir bandas de frecuencia individuales por separado del resto del espectro.
+          p Se realiza a través de EQ adicionales y un proceso conocido como compresión multibanda, que puede comprimir bandas de frecuencia individuales por separado del resto del espectro.
       .col-lg-4
         .tarjeta.tarjetas-a.p-5.h-100
           .iconos.mb-4
             img(src='@/assets/curso/94.svg' style='width: 120px')
             img(src='@/assets/curso/95.svg' style='width: 120px')
-          h5 Ampliación estéreo: 
-          p se alcanza con un complemento especial diseñado para agregar una sensación adicional de «ancho» a las frecuencias más altas en su mezcla.
+          h5 Ampliación estéreo 
+          p Se alcanza con un complemento especial diseñado para agregar una sensación adicional de «ancho» a las frecuencias más altas en su mezcla.
     .bg-carrousel2.d-flex.justify-content-center.align-items-center.mb-5(@mouseover="mostrarIndicador = false")
       .indicador--hover(v-if="mostrarIndicador")
       h2.h1.text-center.text-white Importante
@@ -415,16 +417,16 @@
             p.mb-0 Los formatos de sonido son decodificadores que transmiten la señal junto al video. Los formatos de sonido, podrían definirse como contenedores de audio o grabaciones.
     p.mb-5 Los formatos de sonido más usados por la industria de los videojuegos son:
     TabsA.color-primario.mb-5
-      .tarjeta.bg--2-claro.p-4(titulo="Dolby Digital")
-        h4 Dolby Digital
-        p Es el más utilizado a lo largo de la historia, gracias a que presenta mayor compatibilidad con un gran número de equipos, aunque se puede sufrir cierta pérdida en la calidad, al comprimir el sonido. En los últimos años, ha venido trabajando con otros formatos Dolby digital plus, Dolby Digital TRUE HD, y Dolby ATOMS, que evitan comprimir el audio, conservando la fidelidad de los sonidos.
-      .tarjeta.bg--2-claro.p-4(titulo="Digital Sourround (DTS)")
+      .tarjeta.bg--2-claro.p-4(titulo="<i>Dolby Digital</i>")
+        h4 <i>Dolby Digital</i>
+        p Es el más utilizado a lo largo de la historia, gracias a que presenta mayor compatibilidad con un gran número de equipos, aunque se puede sufrir cierta pérdida en la calidad, al comprimir el sonido. En los últimos años, ha venido trabajando con otros formatos <i>Dolby digital plus, Dolby Digital TRUE HD, y Dolby ATOMS</i>, que evitan comprimir el audio, conservando la fidelidad de los sonidos.
+      .tarjeta.bg--2-claro.p-4(titulo="<i>Digital Sourround (DTS)</i>")
         h4 Digital Sourround (DTS)
         p Es la competencia directa de Dolby Digital, se caracteriza por conservar un sonido fuerte y nítido, aunque al comprimirse también se presenta una pérdida en la calidad, pero menor que la presentada por Dolby Digital y, al igual que esta, ha venido trabajando en su formato DTS – HD sin compresión con el fin de conservar la alta definición del sonido.
       .tarjeta.bg--2-claro.p-4(titulo="Otros Formatos")
         h4 Otros Formatos
-        p Adicionalmente, se utilizan otros formatos de archivo sin compresión en la programación de videojuegos como el <b>WAV</b> y <b>AIFF</b>; que son similares, aunque tienen ciertas diferencias de encapsulado. Mientras que el formato de archivo con compresión más utilizado en la programación de videojuegos es el <b>MP3</b>; y aunque el <b>AAC</b> de <b>Apple</b> y el <b>WMA</b> de Microsoft ofrecen versiones mejoradas al <b>MP3</b>, en el mundo de la programación para videojuegos no se suelen usar, debido a su falta de compatibilidad.
-    h3 Software para la edición de sonido
+        p Adicionalmente, se utilizan otros formatos de archivo sin compresión en la programación de videojuegos como el <b>WAV</b> y <b>AIFF</b>; que son similares, aunque tienen ciertas diferencias de encapsulado. Mientras que el formato de archivo con compresión más utilizado en la programación de videojuegos es el <b>MP3</b>; y aunque el <b>AAC</b> de <b>Apple</b> y el <b>WMA</b> de <i>Microsoft</i> ofrecen versiones mejoradas al <b>MP3</b>, en el mundo de la programación para videojuegos no se suelen usar, debido a su falta de compatibilidad.
+    h3 <i>Software</i> para la edición de sonido
     .row.mb-5.justify-content-center
       .col-lg-8
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -432,64 +434,64 @@
             :style="{'background-image': `url(${require('@/assets/curso/97.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Cualquier software de sonido, que reúna características de calidad, funcionalidad y pertinencia, será para los productores, desarrolladores y creativos en general, una herramienta esencial. Además del After Effects, el cual gracias a su versatilidad incluye también el tratamiento de audio, existen otros softwares de alta aceptación en el mercado y en las organizaciones.
-    p.mb-5 Siendo así, los softwares para edición de sonido, algunos de pago y otros gratuitos, son:
+            p.mb-0 Cualquier <i>software</i> de sonido, que reúna características de calidad, funcionalidad y pertinencia, será para los productores, desarrolladores y creativos en general, una herramienta esencial. Además del <i>After Effects</i>, el cual gracias a su versatilidad incluye también el tratamiento de audio, existen otros <i>softwares</i> de alta aceptación en el mercado y en las organizaciones.
+    p.mb-5 Siendo así, los <i>softwares</i> para edición de sonido, algunos de pago y otros gratuitos, son:
     .row.mb-5.justify-content-center
       .col-lg-9
         LineaTiempoD.color-primario
-          div.row(numero="1" titulo="Adobe Audition").p-4.align-items-center
+          div.row(numero="1" titulo="<i>Adobe Audition</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/98.svg' style='border-radius: 25px')
             .col-lg-8
-              p Se establecen las posiciones y movimientos de cámara acorde a lo definido en el guión técnico y en el storyboard, de igual manera se dispone de la ubicación en el espacio de los elementos de la escena y los personajes.
-          div.row(numero="2" titulo="Logic Pro X").p-4.align-items-center
+              p Programas de edición profesional de audio, de los más completos que hay en el mercado_ Ofrece opción de edición y mezcla multipista, un medidor de volumen ITU, que muestra información sobre los niveles de rango, promedio y pico, la reducción de wido, y que permite instalar plug-ins_ Su interfaz es muy amigable y compatible con casi todos los formatos de audio que se usan hoy día.
+          div.row(numero="2" titulo="<i>Logic Pro X</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/99.svg' style='border-radius: 25px')
             .col-lg-8
               p Producto Apple que sólo está disponible para macOS. Es un DAW <i>(Digital Audio Workstation)</i> con funciones básicas y avanzadas. Una de sus funciones más particulares es el Smart Tempo, que consiste en sincronizar diferentes pistas de un proyecto automáticamente.
-          div.row(numero="3" titulo="Ableton Live 10").p-4.align-items-center
+          div.row(numero="3" titulo="<i>Ableton Live 10</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/100.svg' style='border-radius: 25px')
             .col-lg-8
-              p Se presume como el mejor programa para tocar música en vivo con gran cantidad de funciones: admite pistas ilimitadas de audio y MIDI, 256 canales de entrada y 256 canales de salida mono. Equipado con 70 GB de sonidos pregrabados, 15 instrumentos de software y 46 efectos de audio. Su éxito se debe a su capacidad para crear y tocar música en vivo. Tiene una vista de sesión para añadir pistas MIDI y clips de audio para mezclarlos en tiempo real.
-          div.row(numero="4" titulo="Pro Tools").p-4.align-items-center
+              p Se presume como el mejor programa para tocar música en vivo con gran cantidad de funciones: admite pistas ilimitadas de audio y MIDI, 256 canales de entrada y 256 canales de salida mono. Equipado con 70 GB de sonidos pregrabados, 15 instrumentos de <i>software</i> y 46 efectos de audio. Su éxito se debe a su capacidad para crear y tocar música en vivo. Tiene una vista de sesión para añadir pistas MIDI y clips de audio para mezclarlos en tiempo real.
+          div.row(numero="4" titulo="<i>Pro Tools</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/101.svg' style='border-radius: 25px')
             .col-lg-8
-              p Potente software para editar música: creado para grabar, mezclar y masterizar la mejor calidad de audio posible. Muy utilizado por los profesionales de la industria musical o cinematográfica para sesiones largas ya que soporta casi todas los formatos: .aac, MP3, S1, SD2, M4a y más.
-          div.row(numero="5" titulo="FL Studio").p-4.align-items-center
+              p Potente <i>software</i> para editar música: creado para grabar, mezclar y masterizar la mejor calidad de audio posible. Muy utilizado por los profesionales de la industria musical o cinematográfica para sesiones largas ya que soporta casi todas los formatos: .aac, MP3, S1, SD2, M4a y más.
+          div.row(numero="5" titulo="<i>FL Studio</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/102.svg' style='border-radius: 25px')
             .col-lg-8
-              p Este DAW viene equipado con más de 80 plugins listos para usar y es muy popular en el género del Hip-Hop. También tiene una función única llamada Piano Roll, que permite modificar las notas de los samples con total inmediatez. 
+              p Este DAW viene equipado con más de 80 plugins listos para usar y es muy popular en el género del <i>Hip-Hop</i>. También tiene una función única llamada Piano <i>Roll</i>, que permite modificar las notas de los samples con total inmediatez. 
           div.row(numero="6" titulo="Audacity").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/103.svg' style='border-radius: 25px')
             .col-lg-8
-              p Considerado el mejor programa de código abierto para editar audio. Es muy útil para crear playlists y cuenta con un editor multitrack de audio. Graba y edita audio e, incluso, añade efectos. Es el rey de los programas de edición de audio gratuitos para Windows. 
+              p Considerado el mejor programa de código abierto para editar audio. Es muy útil para crear <i>playlists</i> y cuenta con un editor <i>multitrack</i> de audio. Graba y edita audio e, incluso, añade efectos. Es el rey de los programas de edición de audio gratuitos para <i>Windows</i>. 
           div.row(numero="7" titulo="Ocenaudio").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/104.svg' style='border-radius: 25px')
             .col-lg-8
               p Tiene una interfaz de usuario sencilla y permite copiar y pegar, además de añadir efectos y filtros.
-          div.row(numero="8" titulo="GarageBand").p-4.align-items-center
+          div.row(numero="8" titulo="<i>GarageBand</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/105.svg' style='border-radius: 25px')
             .col-lg-8
-              p Programa gratuito para grabar música en Mac. Viene preinstalado en todos los dispositivos de Apple y permite grabar música. Como curiosidad, el beat de la canción "Umbrella" fue creado usando un loop de GarageBand.Con esta canción, Rihanna ganó un Grammy y alcanzó el #1 en el ranking de Billboard Hot 100. GarageBand ofrece tantas posibilidades y es tan completo que muchos artistas amateurs ven más conveniente producir su música con él que pagar por un estudio de grabación tradicional. 
+              p Programa gratuito para grabar música en <i>Mac</i>. Viene preinstalado en todos los dispositivos de <i>Apple</i> y permite grabar música. Como curiosidad, el <i>beat</i> de la canción <i>"Umbrella"</i> fue creado usando un <i>loop</i> de <i>GarageBand</i>.Con esta canción, Rihanna ganó un <i>Grammy</i> y alcanzó el #1 en el <i>ranking</i> de <i>Billboard</i> <i>Hot</i> 100. <i>GarageBand</i> ofrece tantas posibilidades y es tan completo que muchos artistas <i>amateurs</i> ven más conveniente producir su música con él que pagar por un estudio de grabación tradicional. 
     .contenedor_amarillo.bg--4-claro.p-5.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3
           .titulo-segundo.color-primario
-            h3 Para finalizar este contenido, se le recomienda visitar los siguientes enlaces para ampliar su conocimiento y apropiación sobre softwares para edición de sonido: 
+            h3 Para finalizar este contenido, se le recomienda visitar los siguientes enlaces para ampliar su conocimiento y apropiación sobre <i>softwares</i> para edición de sonido: 
           a(href="https://www.crehana.com/pe/blog/video/mejores-programas-edicion-audio/#grg-band" target="_blank")
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
@@ -517,7 +519,7 @@ export default {
       {
         titulo: 'El diseño de sonido',
         texto:
-          'El diseño de sonido, que consiste en la creación de todo el ambiente sonoro para un medio audiovisual, ya sea cine, tv, web-streaming, etc.',
+          'El diseño de sonido, que consiste en la creación de todo el ambiente sonoro para un medio audiovisual, ya sea cine, tv, ;<i>web-streaming</i>, etc.',
         imagen: require('@/assets/curso/84.jpg'),
       },
       {
@@ -661,4 +663,8 @@ export default {
   color: white !important
 .tabs-a__tab
   background-color: #F4DCC0
+.bloque-texto-g__texto
+  background-color: rgba(255, 255, 255, 0.8)
+.fas.fa-circle
+  color: #F4DCC0
 </style>

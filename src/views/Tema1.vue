@@ -28,7 +28,7 @@
             img(src="@/assets/curso/7.jpg")
     #t_1_1.titulo-segundo.color-secundario
       h2 1.1 Tipos de composición 
-    .contenedor-fondo.p-5
+    .contenedor-fondo1.p-5
       .row.justify-content-center
         .col-lg-10: img(src='@/assets/curso/8.png').mb-5.mt-5
         p.text-center Gerald Millerson, autor de varios libros y publicaciones referentes a la producción y realización en televisión, distingue tres tipos de composición: 
@@ -91,7 +91,7 @@
             .col-lg-4
               .rounded-2
                 img(src='@/assets/curso/14.jpg' style='border-radius: 25px')
-          div.row(numero="3" titulo="Layout y composición").p-4.align-items-center
+          div.row(numero="3" titulo="<i>Layout</i> y composición").p-4.align-items-center
             .col-lg-8
               p <i>Loyout</i> y composición como un storytelling; una composición coherente ayuda a seguir la trama y a entender con claridad lo que sucede en pantalla ya que conduce la mirada hacia un inequívoco “centro de interés”, por más diversidad de elementos que haya en escena.
             .col-lg-4
@@ -127,7 +127,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3
           .titulo-segundo.color-primario
-            h3 Conozca más sobre la aplicación de estas reglase en cine y video y estudie algunos ejemplos, visualizando los vídeos que aquí se proponen. Explore cada uno de ellos y procure llevar registro, en su libreta personal de apuntes, de los aspectos más relevantes que encuentre:
+            h3 Conozca más sobre la aplicación de estas reglas en cine y video y estudie algunos ejemplos, visualizando los vídeos que aquí se proponen. Explore cada uno de ellos y procure llevar registro, en su libreta personal de apuntes, de los aspectos más relevantes que encuentre:
           a(href="https://www.youtube.com/watch?v=t5MPOqnt60U" target="_blank")
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
@@ -167,13 +167,13 @@
           .indicador--click(v-if="mostrarIndicador")
           img(src="@/assets/curso/21.svg" style="width:155px").me-2
           .textos
-            h5 Planar Tracking (2.5D) 
-            p.mb-0 Se utiliza para separar elementos y personajes del fondo original, cuando no se ha usado chromas.
+            h5 <i>Planar Tracking</i> (2.5D) 
+            p.mb-0 Consiste en marcar objetos mediante el reconocimiento de uno o varios <i>píxeles</i> y hacerles seguimiento para calcular su trayectoria durante un plano, con el objetivo de que otros elementos digitales sigan dicho movimiento.
         ModalA(:abrir-modal.sync="modal1")
           .row.p-5
             .col-lg-8: img(src='@/assets/curso/31.jpg' style='border-radius:25px')
             .col-lg-4
-              h5 Planar Tracking (2.5D) 
+              h5 <i>Planar Tracking</i> (2.5D) 
               p Esta información permite determinar el movimiento de un objeto fijo en una escena, de un elemento que se mueve, o revelar la trayectoria de la propia cámara respecto de ese escenario.
                 br
                 br
@@ -183,7 +183,7 @@
           img(src="@/assets/curso/22.svg" style="width:155px").me-2
           .textos
             h5 Rotoscopia
-            p.mb-0 Consiste en marcar objetos mediante el reconocimiento de uno o varios píxeles y hacerles seguimiento para calcular su trayectoria durante un plano, con el objetivo de que otros elementos digitales sigan dicho movimiento. 
+            p.mb-0 Se utiliza para separar elemetos y personajes el fondo oiginal, cuando no se ha usado <i>chromas</i>. 
         ModalA(:abrir-modal.sync="modal2")
           .row.p-5
             .col-lg-8: img(src='@/assets/curso/32.jpg' style='border-radius:25px')
@@ -195,8 +195,8 @@
         .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal3 = true")
           img(src="@/assets/curso/23.svg" style="width:155px").me-2
           .textos
-            h5 Chroma key
-            p.mb-0  También conocido como Keying, permite que, mediante manipulación del color, se puedan superponer personajes en escenarios diferentes, ya sea un fondo real o creado digitalmente. 
+            h5 <i>Chroma key</i>
+            p.mb-0  También conocido como <i>Keying</i>, permite que, mediante manipulación del color, se puedan superponer personajes en escenarios diferentes, ya sea un fondo real o creado digitalmente. 
         ModalA(:abrir-modal.sync="modal3")
           .row.p-5
             .col-lg-8: img(src='@/assets/curso/33.jpg' style='border-radius:25px')
@@ -207,21 +207,21 @@
         .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal4 = true")
           img(src="@/assets/curso/24.svg" style="width:155px").me-2
           .textos
-            h5 Paint & Prep / Borrados & Parches
+            h5 <i>Paint & Prep</i> / Borrados & Parches
             p.mb-0 Esta técnica usa herramientas de relleno para borrar elementos que sobran en el plano. 
         ModalA(:abrir-modal.sync="modal4")
           .row.p-5
             .col-lg-8: img(src='@/assets/curso/34.jpg' style='border-radius:25px')
             .col-lg-4
-              h5 Paint & Prep | Borrados & Parches
-              p Se refiere al trabajo previo de limpiar y preparar el plano para el compositor. Tanto Nuke y After Effects cuentan con la función de relleno que permite el borrado automático de elementos no deseados en un video.
+              h5 <i>Paint & Prep</i> | Borrados & Parches
+              p Se refiere al trabajo previo de limpiar y preparar el plano para el compositor. Tanto <i>Nuke</i> y <i>After Effects</i> cuentan con la función de relleno que permite el borrado automático de elementos no deseados en un video.
     .row.mb-3
       .col-lg-6.mb-3
         .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal5 = true")
           img(src="@/assets/curso/25.svg" style="width:155px").me-2
           .textos
             h5 Corrección de color
-            p.mb-0  Mediante la modificación de determinados colores se corrigen problemas de exposición, parámetros de la luz, el aspecto (look), se ecualiza o unifican los niveles de diferentes planos (etalonaje), etc.
+            p.mb-0  Mediante la modificación de determinados colores se corrigen problemas de exposición, parámetros de la luz, el aspecto (<i>look</i>), se ecualiza o unifican los niveles de diferentes planos (etalonaje), etc.
         ModalA(:abrir-modal.sync="modal5")
           .row.p-5
             .col-lg-8: img(src='@/assets/curso/35.jpg' style='border-radius:25px')
@@ -240,8 +240,8 @@
         .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal6 = true")
           img(src="@/assets/curso/26.svg" style="width:155px").me-2
           .textos
-            h5 Camera projection
-            p.mb-0 El tracking 3D extrae información tridimensional del desplazamiento y la rotación de la cámara en la escena, y el movimiento de un objeto en la escena. 
+            h5 <i>Camera projection</i>
+            p.mb-0 El <i>tracking</i> 3D extrae información tridimensional del desplazamiento y la rotación de la cámara en la escena, y el movimiento de un objeto en la escena. 
         ModalA(:abrir-modal.sync="modal6")
           .row.p-5
             .col-lg-8: img(src='@/assets/curso/36.jpg' style='border-radius:25px')
@@ -253,7 +253,7 @@
         .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal7 = true")
           img(src="@/assets/curso/27.svg" style="width:155px").me-2
           .textos
-            h5 Matchmoving y rotomation
+            h5 <i>Matchmoving y rotomation</i>
             p.mb-0 Permite insertar elementos en un video previamente grabado y situarlos  en  su posición, escala, orientación y movimiento correctos, en relación con los elementos que aparecen en el plano. .  
         ModalA(:abrir-modal.sync="modal7")
           .row.p-5
@@ -265,7 +265,7 @@
         .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal8 = true")
           img(src="@/assets/curso/28.svg" style="width:155px").me-2
           .textos
-            h5 Digital Matte Painting
+            h5 <i>Digital Matte Painting</i>
             p.mb-0 Se trata de técnicas 2D y 3D que combinan habilidades de composición fotográfica, producción 3D y pintura digital, para el diseño y creación de cualquier tipo de fondo, entorno o escenario digital.
         ModalA(:abrir-modal.sync="modal8")
           .row.p-5
@@ -278,7 +278,7 @@
         .tarjeta.bg--1-claro.p-4.pointer.d-flex.align-items-center.h-100(@click="modal9 = true")
           img(src="@/assets/curso/29.svg" style="width:155px").me-2
           .textos
-            h5 Deep Compositing
+            h5 <i>Deep Compositing</i>
             p.mb-0  Permite que de una imagen 2D se pueda extraer información tridimensional y trabajar a diferentes profundidades
         ModalA(:abrir-modal.sync="modal9")
           .row.p-5
@@ -307,7 +307,7 @@
                 .anexo__texto
                   p Webinar: Técnicas de Composición Digital 
     #t_1_4.titulo-segundo.color-secundario
-      h2 1.4 Software de composición 
+      h2 1.4 <i>Software</i> de composición 
     .row.mb-5.justify-content-center
       .col-lg-8
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -315,23 +315,25 @@
             :style="{'background-image': `url(${require('@/assets/curso/41.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Actualmente, la mayoría de los softwares que se usan en la industria audiovisual combinan, en menor o mayor medida, herramientas de todas las fases de la postproducción. Esto quiere decir que, un software especializado en edición de vídeo como Adobe Premiere, incluye opciones como el chroma o la rotoscopia que, normalmente, están disponibles en la composición digital, pero también movimiento de títulos u otros objetos que pertenecen a la animación.
+            p.mb-0 Actualmente, la mayoría de los <i>softwares</i> que se usan en la industria audiovisual combinan, en menor o mayor medida, herramientas de todas las fases de la postproducción. Esto quiere decir que, un <i>software</i> especializado en edición de vídeo como <i>Adobe Premiere</i>, incluye opciones como el <i>chroma</i> o la rotoscopia que, normalmente, están disponibles en la composición digital, pero también movimiento de títulos u otros objetos que pertenecen a la animación.
     .bg-carrousel.d-flex.justify-content-center.align-items-center.mb-4(@mouseover="mostrarIndicador = false")
       .indicador--hover(v-if="mostrarIndicador")
       h2.h1.text-center.text-white Sabías que...
       .bg-carrousel_content.px-5.py-5.justify-content-center.d-flex.align-items-center
         .text-center.w-75
-          p.fw-bold.mb-0 Igualmente, existen softwares enfocados en la composición digital como After Effects o Hitfilm Pro, que tienen sus propias herramientas de edición de video.
+          p.fw-bold.mb-0 Igualmente, existen <i>softwares</i> enfocados en la composición digital como <i>After Effects</i> o <i>Hitfilm Pro</i>, que tienen sus propias herramientas de edición de video.
     .bg-carrousel2.d-flex.justify-content-center.align-items-center.mb-5(@mouseover="mostrarIndicador = false")
       .indicador--hover(v-if="mostrarIndicador")
       h2.h1.text-center.text-white Importante
       .bg-carrousel2_content.px-5.py-5.justify-content-center.d-flex.align-items-center
         .text-center.w-75
           p.fw-bold.mb-0 Esta información es importante en el momento de elegir las herramientas con las que se finalizarán los proyectos en postproducción. Es necesario plantearse qué se va a hacer y qué tipo de editor es el más apropiado.
-    p.mb-5 Para las tareas de composición digital existen softwares de composición especializados de dos tipos: software que se basa en la composición multicapa y software que se basa en la composición por nodos. 
+    p.mb-5 Para las tareas de composición digital existen <i>softwares</i> de composición especializados de dos tipos: <i>software</i> que se basa en la composición multicapa y <i>software</i> que se basa en la composición por nodos. 
       br
       br
       |Ambos tipos de composición pueden definirse de la siguiente manera:
+    SlyderB.mb-5(:datos="datosSlyder2")
+    p.mb-5 De igual manera, es importante saber que algunos de los programas más utilizados para las labores de composición digital son:  
     .row.mb-5.justify-content-center
       .col-lg-10
         .tarjeta.tarjeta--gris.p-4
@@ -342,14 +344,14 @@
                   img(src='@/assets/curso/44.jpg', alt='Texto que describa la imagen' style='border-radius: 30px')
               .col-md-7.mb-4.mb-md-0
                 h4.fst-italic Nuke
-                p Uno de los mejores softwares de composición digital para FX que se utiliza para la postproducción de cine y televisión. Es un programa  potente usado grandes producciones cinematográficas; está disponible para Microsoft Windows, Mac OS X y Linux.
+                p Uno de los mejores <i>softwares</i> de composición digital para FX que se utiliza para la postproducción de cine y televisión. Es un programa  potente usado grandes producciones cinematográficas; está disponible para <i>Microsoft Windows, Mac OS X y Linux</i>.
             .row(titulo="").px-4
               .col-md-5
                 figure
                   img(src='@/assets/curso/45.jpg', alt='Texto que describa la imagen' style='border-radius: 30px')
               .col-md-7.mb-4.mb-md-0
                 h4.fst-italic Adobe After Effects 
-                p Programa versátil que crea y anima; también es un software líder de efectos visuales y otras disciplinas. Perfecto para realizar VFX, Motion Graphics, Composición digital, animación 2D y 3D, programar expresiones, crear vídeos de RV, entre otras.
+                p Programa versátil que crea y anima; también es un <i>software</i> líder de efectos visuales y otras disciplinas. Perfecto para realizar VFX, <i>Motion Graphics</i>, Composición digital, animación 2D y 3D, programar expresiones, crear vídeos de RV, entre otras.
             .row(titulo="").px-4
               .col-md-5
                 figure
@@ -363,30 +365,28 @@
                   img(src='@/assets/curso/47.jpg', alt='Texto que describa la imagen' style='border-radius: 30px')
               .col-md-7.mb-4.mb-md-0
                 h4.fst-italic Natron 
-                p Poderoso compositor digital de código abierto que puede manejar 2D / 2.5D. Es el programa más flexible para el sector de los efectos visuales y de la animación profesional; compatible con Open Efects;  trabaja con un sistema de nodos y cuenta con decenas de plugins libres.
+                p Poderoso compositor digital de código abierto que puede manejar 2D / 2.5D. Es el programa más flexible para el sector de los efectos visuales y de la animación profesional; compatible con <i>Open Efects</i>;  trabaja con un sistema de nodos y cuenta con decenas de <i>plugins</i> libres.
             .row(titulo="").px-4
               .col-md-5
                 figure
                   img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen' style='border-radius: 30px')
               .col-md-7.mb-4.mb-md-0
                 h4.fst-italic OpenColorIO
-                p Permite gestionar de manera efectiva el color en las películas de efectos visuales y canales por computador. Desde su nacimiento, está basado en aplicaciones comerciales como Katana, Mari, Nuke, Silhouette FX. Se ha usado en películas como SpiderMan 2 (2004), Surf’s Up (2007), Cloudy with a Chance of Meatballs (2009), Alicia en el País de las Maravillas (2010), entre otras.
+                p Permite gestionar de manera efectiva el color en las películas de efectos visuales y canales por computador. Desde su nacimiento, está basado en aplicaciones comerciales como <i>Katana, Mari, Nuke, Silhouette FX</i>. Se ha usado en películas como <i>SpiderMan</i> 2 (2004), <i>Surf’s Up</i> (2007), <i>Cloudy with a Chance of Meatballs</i> (2009), Alicia en el País de las Maravillas (2010), entre otras.
             .row(titulo="").px-4
               .col-md-5
                 figure
                   img(src='@/assets/curso/49.jpg', alt='Texto que describa la imagen' style='border-radius: 30px')
               .col-md-7.mb-4.mb-md-0
                 h4.fst-italic DaVinciResolve
-                p Edición, etalonaje, efectos visuales y postproducción de audio con calidad profesional. Es el software de composición más potente en corrección de color de la industria VFX.
+                p Edición, etalonaje, efectos visuales y postproducción de audio con calidad profesional. Es el <i>software</i> de composición más potente en corrección de color de la industria VFX.
             .row(titulo="").px-4
               .col-md-5
                 figure
                   img(src='@/assets/curso/50.jpg', alt='Texto que describa la imagen' style='border-radius: 30px')
               .col-md-7.mb-4.mb-md-0
                 h4.fst-italic Clarisse iFX
-                p Conjunto de herramientas CG totalmente interactivo para crear escenarios 3D, desarrollar looks, iluminar, renderizar y componer. Fue diseñado para agilizar el flujo de trabajo de artistas y permitirles trabajar e interactuar constantemente en su imagen final, con efectos completos y en tiempo real. 
-    p.mb-5 De igual manera, es importante saber que algunos de los programas más utilizados para las labores de composición digital son:        
-    SlyderB.mb-5(:datos="datosSlyder2")
+                p Conjunto de herramientas CG totalmente interactivo para crear escenarios 3D, desarrollar <i>looks</i>, iluminar, renderizar y componer. Fue diseñado para agilizar el flujo de trabajo de artistas y permitirles trabajar e interactuar constantemente en su imagen final, con efectos completos y en tiempo real.       
 </template>
 
 <script>
@@ -430,7 +430,7 @@ export default {
       {
         titulo: 'Producción de planos',
         texto:
-          'La composición digital también interviene la producción de planos que no necesitan integrar elementos, sino llevar a cabo acciones de borrado de elementos, como eliminar un micrófono o un cable que se queda visible en el plano, retoque de los actores, extraer cromas, eliminar puntos de referencia (tracks), etc.',
+          'La composición digital también interviene la producción de planos que no necesitan integrar elementos, sino llevar a cabo acciones de borrado de elementos, como eliminar un micrófono o un cable que se queda visible en el plano, retoque de los actores, extraer cromas, eliminar puntos de referencia (<i>tracks</i>), etc.',
         imagen: require('@/assets/curso/5.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -460,7 +460,7 @@ export default {
       {
         titulo: 'En la composición por nodos, tenga presente',
         texto:
-          'Cada nodo tiene uno o varios inputs (información que entra) y uno o varios outputs (información que sale). Y así, mediante el procedimiento de entrada/salida se va construyendo el árbol distribuyendo los elementos. En este sentido, la información se ordena de manera muy visual y esquemática, ya que un árbol de nodos se parece mucho a un diagrama de flujo de trabajo.',
+          'Cada nodo tiene uno o varios <i>inputs</i> (información que entra) y uno o varios <i>outputs</i> (información que sale). Y así, mediante el procedimiento de entrada/salida se va construyendo el árbol distribuyendo los elementos. En este sentido, la información se ordena de manera muy visual y esquemática, ya que un árbol de nodos se parece mucho a un diagrama de flujo de trabajo.',
         imagen: require('@/assets/curso/53.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -484,7 +484,7 @@ export default {
   background-color: $color-secundario
   i
     color: $color-primario
-.contenedor-fondo
+.contenedor-fondo1
   background-image: url('../assets/curso/bg-1.png')
   background-repeat: no-repeat
   background-size: cover
