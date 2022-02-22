@@ -176,19 +176,19 @@
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/76.svg' style='border-radius: 25px')
-          div.row(numero="2" titulo="Adobe Premiere Pro (Windows y Mac): ").p-4.align-items-center
+          div.row(numero="2" titulo="<i>Adobe Premiere Pro (Windows y Mac):</i> ").p-4.align-items-center
             .col-lg-8
               p Es una de las mejores alternativas profesionales para sacar el máximo rendimiento a la edición de vídeo. Pertenece a la familia de productos de <i>Adobe Creative Suite</i>. 
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/77.svg' style='border-radius: 25px')
-          div.row(numero="3" titulo="Adobe After Effects (Windows y Mac): ").p-4.align-items-center
+          div.row(numero="3" titulo="<i>Adobe After Effects (Windows y Mac):</i> ").p-4.align-items-center
             .col-lg-8
-              p Es un complemento para Adobe Premiere Pro que, aunque requiere de un nivel algo avanzado, permite crear animaciones, gráficos 3D con movimiento y efectos para incluir en los vídeos dando un toque muy profesional.
+              p Es un complemento para <i>Adobe Premiere Pro</i> que, aunque requiere de un nivel algo avanzado, permite crear animaciones, gráficos 3D con movimiento y efectos para incluir en los vídeos dando un toque muy profesional.
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/78.svg' style='border-radius: 25px')
-          div.row(numero="4" titulo="Avid Media Composer (Windows y Mac): ").p-4.align-items-center
+          div.row(numero="4" titulo="<i>Avid Media Composer (Windows y Mac):</i> ").p-4.align-items-center
             .col-lg-8
               p A pesar de no ser tan popular en los estudios de posproducción profesional de cine y televisión es muy usado por su dinámico flujo de trabajo. 
             .col-lg-3
@@ -213,7 +213,7 @@
               .rounded-2
                 img(src='@/assets/curso/82.svg' style='border-radius: 25px')
     #t_2_2.titulo-segundo.color-acento-botones
-      h2 2.1 Edición de audio
+      h2 2.2 Edición de audio
     .contenedor-fondo.p-5.mb-4
       .row.justify-content-center
         .col-lg-8: img(src='@/assets/curso/83.png').mb-5.mt-5
@@ -422,7 +422,7 @@
         p Es el más utilizado a lo largo de la historia, gracias a que presenta mayor compatibilidad con un gran número de equipos, aunque se puede sufrir cierta pérdida en la calidad, al comprimir el sonido. En los últimos años, ha venido trabajando con otros formatos <i>Dolby digital plus, Dolby Digital TRUE HD, y Dolby ATOMS</i>, que evitan comprimir el audio, conservando la fidelidad de los sonidos.
       .tarjeta.bg--2-claro.p-4(titulo="<i>Digital Sourround (DTS)</i>")
         h4 Digital Sourround (DTS)
-        p Es la competencia directa de Dolby Digital, se caracteriza por conservar un sonido fuerte y nítido, aunque al comprimirse también se presenta una pérdida en la calidad, pero menor que la presentada por Dolby Digital y, al igual que esta, ha venido trabajando en su formato DTS – HD sin compresión con el fin de conservar la alta definición del sonido.
+        p Es la competencia directa de <i>Dolby Digital</i>, se caracteriza por conservar un sonido fuerte y nítido, aunque al comprimirse también se presenta una pérdida en la calidad, pero menor que la presentada por <i>Dolby Digital</i> y, al igual que esta, ha venido trabajando en su formato DTS – HD sin compresión con el fin de conservar la alta definición del sonido.
       .tarjeta.bg--2-claro.p-4(titulo="Otros Formatos")
         h4 Otros Formatos
         p Adicionalmente, se utilizan otros formatos de archivo sin compresión en la programación de videojuegos como el <b>WAV</b> y <b>AIFF</b>; que son similares, aunque tienen ciertas diferencias de encapsulado. Mientras que el formato de archivo con compresión más utilizado en la programación de videojuegos es el <b>MP3</b>; y aunque el <b>AAC</b> de <b>Apple</b> y el <b>WMA</b> de <i>Microsoft</i> ofrecen versiones mejoradas al <b>MP3</b>, en el mundo de la programación para videojuegos no se suelen usar, debido a su falta de compatibilidad.
@@ -444,7 +444,7 @@
               .rounded-2
                 img(src='@/assets/curso/98.svg' style='border-radius: 25px')
             .col-lg-8
-              p Programas de edición profesional de audio, de los más completos que hay en el mercado_ Ofrece opción de edición y mezcla multipista, un medidor de volumen ITU, que muestra información sobre los niveles de rango, promedio y pico, la reducción de wido, y que permite instalar plug-ins_ Su interfaz es muy amigable y compatible con casi todos los formatos de audio que se usan hoy día.
+              p Programas de edición profesional de audio, de los más completos que hay en el mercado. Ofrece opción de edición y mezcla multipista, un medidor de volumen ITU, que muestra información sobre los niveles de rango, promedio y pico, la reducción de wido, y que permite instalar plug-ins. Su interfaz es muy amigable y compatible con casi todos los formatos de audio que se usan hoy día.
           div.row(numero="2" titulo="<i>Logic Pro X</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
@@ -519,7 +519,7 @@ export default {
       {
         titulo: 'El diseño de sonido',
         texto:
-          'El diseño de sonido, que consiste en la creación de todo el ambiente sonoro para un medio audiovisual, ya sea cine, tv, ;<i>web-streaming</i>, etc.',
+          'El diseño de sonido, que consiste en la creación de todo el ambiente sonoro para un medio audiovisual, ya sea cine, tv, <i>web-streaming</i>, etc.',
         imagen: require('@/assets/curso/84.jpg'),
       },
       {

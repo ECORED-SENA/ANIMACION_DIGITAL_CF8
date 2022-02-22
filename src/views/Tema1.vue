@@ -93,7 +93,7 @@
                 img(src='@/assets/curso/14.jpg' style='border-radius: 25px')
           div.row(numero="3" titulo="<i>Layout</i> y composición").p-4.align-items-center
             .col-lg-8
-              p <i>Loyout</i> y composición como un storytelling; una composición coherente ayuda a seguir la trama y a entender con claridad lo que sucede en pantalla ya que conduce la mirada hacia un inequívoco “centro de interés”, por más diversidad de elementos que haya en escena.
+              p <i>Layout</i> y composición como un storytelling; una composición coherente ayuda a seguir la trama y a entender con claridad lo que sucede en pantalla ya que conduce la mirada hacia un inequívoco “centro de interés”, por más diversidad de elementos que haya en escena.
             .col-lg-4
               .rounded-2
                 img(src='@/assets/curso/15.jpg' style='border-radius: 25px')
@@ -122,7 +122,7 @@
         .col-lg-10
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/mtT47-5uOyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .contenedor_amarillo.bg--4-claro.p-5.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3
