@@ -124,8 +124,10 @@
       .tarjetas-up__content.p-4.d-flex.align-items-center
         .tarjetas-up__content__image: img(src='@/assets/curso/70.jpg')
         .text-center
-          p.fw-bold Plano americano
-          p “Nació a partir de la necesidad del <i>western</i>, que en el plano medio tenía que incluir la pistola del <i>cowboy</i>. Este plano comprende, entonces, desde la pistola colgada debajo de la cintura hasta la cabeza entera del personaje”. 
+          p <b>Plano americano</b>
+            br
+            br
+            | “Nació a partir de la necesidad del <i>western</i>, que en el plano medio tenía que incluir la pistola del <i>cowboy</i>. Este plano comprende, entonces, desde la pistola colgada debajo de la cintura hasta la cabeza entera del personaje”. 
       .tarjetas-up__content.p-4.d-flex.align-items-center
         .tarjetas-up__content__image: img(src='@/assets/curso/71.jpg')
         .text-center
@@ -421,7 +423,7 @@
         h4 <i>Dolby Digital</i>
         p Es el más utilizado a lo largo de la historia, gracias a que presenta mayor compatibilidad con un gran número de equipos, aunque se puede sufrir cierta pérdida en la calidad, al comprimir el sonido. En los últimos años, ha venido trabajando con otros formatos <i>Dolby digital plus, Dolby Digital TRUE HD, y Dolby ATOMS</i>, que evitan comprimir el audio, conservando la fidelidad de los sonidos.
       .tarjeta.bg--2-claro.p-4(titulo="<i>Digital Sourround (DTS)</i>")
-        h4 Digital Sourround (DTS)
+        h4 <i>Digital Sourround (DTS)</i>
         p Es la competencia directa de <i>Dolby Digital</i>, se caracteriza por conservar un sonido fuerte y nítido, aunque al comprimirse también se presenta una pérdida en la calidad, pero menor que la presentada por <i>Dolby Digital</i> y, al igual que esta, ha venido trabajando en su formato DTS – HD sin compresión con el fin de conservar la alta definición del sonido.
       .tarjeta.bg--2-claro.p-4(titulo="Otros Formatos")
         h4 Otros Formatos
