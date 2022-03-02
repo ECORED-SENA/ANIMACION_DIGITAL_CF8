@@ -141,7 +141,7 @@ export default {
     {
       referencia:
         'Marqués, P. (1995). <em>Introducción al lenguaje audiovisual.</em>',
-      link: 'http://peremarques.pangea.org/avmulti.htm#av',
+      link: 'http://peremarques.net/avmulti.htm',
     },
     {
       referencia:
@@ -155,7 +155,7 @@ export default {
     },
     {
       referencia:
-        'Sánchez, J. (2016). <em>>nálisis de la composición digital para la realización de efectos digitales en los casos de The Martian (2015) y Mad Max: Fury Road (2015.)</em> Universidad Politécnica de Valencia.',
+        'Sánchez, J. (2016). <em>Análisis de la composición digital para la realización de efectos digitales en los casos de The Martian (2015) y Mad Max: Fury Road (2015.)</em> Universidad Politécnica de Valencia.',
       link: '',
     },
   ],

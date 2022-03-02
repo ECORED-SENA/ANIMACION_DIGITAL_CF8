@@ -63,7 +63,7 @@
                 i.fas.fa-caret-up.fa-2x.color-primario.me-3
                 i.fas.fa-caret-down.fa-2x.color-primario.me-3
               h4.mb-0 Composición por selección
-            p Ocurre cuando la escena viene previamente configurada y sólo encajan las opciones derivadas de la colocación de la cámara para construir un efecto comunicativo determinado.
+            p Ocurre cuando la escena viene previamente configurada y solo encajan las opciones derivadas de la colocación de la cámara para construir un efecto comunicativo determinado.
     .row.mb-5.justify-content-center
       .col-lg-8
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -71,7 +71,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/12.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 En cuanto a la posición de la cámara, esta determina el <b>“punto de vista”</b> de la toma y la perspectiva, razón por la que es uno de los elementos más valiosos en toda composición. El resultado de una composición u otra depende del punto desde donde se enfoque.
+            p.mb-0 En cuanto a la posición de la cámara, esta determina el <b>“punto de vista”</b> de la toma y la perspectiva, razón por la que es uno de los elementos más valiosos en toda composición. El resultado de una composición u otra, depende del punto desde donde se enfoque.
     p.mb-5 Utilizar ángulos y enfoques distintos producen efectos llamativos y originales porque la mayoría de las tomas se realizan a nivel del ojo. <b>Por ejemplo</b>, desde un punto de vista bajo, los objetos cercanos se agrandan; los horizontes más bajos desplazan el centro de atención hacia el cielo; los horizontes más altos, desplazan el horizonte hacia la tierra (Armenteros, 2011).
       br
       br
@@ -99,7 +99,7 @@
                 img(src='@/assets/curso/15.jpg' style='border-radius: 25px')
           div.row(numero="4" titulo="Estilo narrativo").p-4.align-items-center
             .col-lg-8
-              p Crear una composición, es tomar una decisión sobre el estilo narrativo del proyecto, por lo que los otros factores que determinan el encuadre: valor de plano, movimiento de cámara, iluminación, temperatura de color, personajes y los todos los elementos necesarios para la escena, deben responder a ese estilo.
+              p Crear una composición, es tomar una decisión sobre el estilo narrativo del proyecto, por lo que los otros factores que determinan el encuadre: valor de plano, movimiento de cámara, iluminación, temperatura de color, personajes y todos los elementos necesarios para la escena, deben responder a ese estilo.
             .col-lg-4
               .rounded-2
                 img(src='@/assets/curso/16.jpg' style='border-radius: 25px')
@@ -136,15 +136,15 @@
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Técnicas y principios de composición fotográfica en cine y series.
-          a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
+          a(href="https://www.youtube.com/watch?v=Cu9ocpe0SrY&ab_channel=Hanns" target="_blank")
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center MEJORA TUS FOTOS Y VIDEOS con este simple TRUCO (composición).
-          a(href="https://www.youtube.com/watch?v=I7sS54EIEAg&ab_channel=LucianoAvilasobrecineyseries" target="_blank")
+          a(href="https://www.youtube.com/watch?v=Cu9ocpe0SrY&ab_channel=Hanns" target="_blank")
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Mr. Robot: Encuadres que rompen las reglas de composición (Análisis).
-          a(href="https://www.youtube.com/watch?v=zkxLh4op_oo&t=255s" target="_blank")
+          a(href="https://www.youtube.com/watch?v=zkxLh4op_oo&t=255s&ab_channel=JamesAllenStewart" target="_blank")
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center How To Break The Rules Of Composition.
@@ -183,7 +183,7 @@
           img(src="@/assets/curso/22.svg" style="width:155px").me-2
           .textos
             h5 Rotoscopia
-            p.mb-0 Se utiliza para separar elemetos y personajes el fondo oiginal, cuando no se ha usado <i>chromas</i>. 
+            p.mb-0 Se utiliza para separar elementos y personajes del fondo original, cuando no se ha usado <i>chromas</i>. 
         ModalA(:abrir-modal.sync="modal2")
           .row.p-5
             .col-lg-8: img(src='@/assets/curso/32.jpg' style='border-radius:25px')
@@ -315,20 +315,20 @@
             :style="{'background-image': `url(${require('@/assets/curso/41.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Actualmente, la mayoría de los <i>softwares</i> que se usan en la industria audiovisual combinan, en menor o mayor medida, herramientas de todas las fases de la postproducción. Esto quiere decir que, un <i>software</i> especializado en edición de vídeo como <i>Adobe Premiere</i>, incluye opciones como el <i>chroma</i> o la rotoscopia que, normalmente, están disponibles en la composición digital, pero también movimiento de títulos u otros objetos que pertenecen a la animación.
+            p.mb-0 Actualmente, la mayoría de los <i>software</i> que se usan en la industria audiovisual combinan, en menor o mayor medida, herramientas de todas las fases de la postproducción. Esto quiere decir que, un <i>software</i> especializado en edición de vídeo como <i>Adobe Premiere</i>, incluye opciones como el <i>chroma</i> o la rotoscopia que, normalmente, están disponibles en la composición digital, pero también movimiento de títulos u otros objetos que pertenecen a la animación.
     .bg-carrousel.d-flex.justify-content-center.align-items-center.mb-4(@mouseover="mostrarIndicador = false")
       .indicador--hover(v-if="mostrarIndicador")
       h2.h1.text-center.text-white Sabías que...
       .bg-carrousel_content.px-5.py-5.justify-content-center.d-flex.align-items-center
         .text-center.w-75
-          p.fw-bold.mb-0 Igualmente, existen <i>softwares</i> enfocados en la composición digital como <i>After Effects</i> o <i>Hitfilm Pro</i>, que tienen sus propias herramientas de edición de video.
+          p.fw-bold.mb-0 Igualmente, existen <i>software</i> enfocados en la composición digital como <i>After Effects</i> o <i>Hitfilm Pro</i>, que tienen sus propias herramientas de edición de video.
     .bg-carrousel2.d-flex.justify-content-center.align-items-center.mb-5(@mouseover="mostrarIndicador = false")
       .indicador--hover(v-if="mostrarIndicador")
       h2.h1.text-center.text-white Importante
       .bg-carrousel2_content.px-5.py-5.justify-content-center.d-flex.align-items-center
         .text-center.w-75
           p.fw-bold.mb-0 Esta información es importante en el momento de elegir las herramientas con las que se finalizarán los proyectos en postproducción. Es necesario plantearse qué se va a hacer y qué tipo de editor es el más apropiado.
-    p.mb-5 Para las tareas de composición digital existen <i>softwares</i> de composición especializados de dos tipos: <i>software</i> que se basa en la composición multicapa y <i>software</i> que se basa en la composición por nodos. 
+    p.mb-5 Para las tareas de composición digital existen <i>software</i> de composición especializados de dos tipos: <i>software</i> que se basa en la composición multicapa y <i>software</i> que se basa en la composición por nodos. 
       br
       br
       |Ambos tipos de composición pueden definirse de la siguiente manera:
@@ -344,7 +344,7 @@
                   img(src='@/assets/curso/44.jpg', alt='Texto que describa la imagen' style='border-radius: 30px')
               .col-md-7.mb-4.mb-md-0
                 h4.fst-italic Nuke
-                p Uno de los mejores <i>softwares</i> de composición digital para FX que se utiliza para la postproducción de cine y televisión. Es un programa  potente usado grandes producciones cinematográficas; está disponible para <i>Microsoft Windows, Mac OS X y Linux</i>.
+                p Uno de los mejores <i>softwares</i> de composición digital para FX que se utiliza para la postproducción de cine y televisión. Es un programa  potente usado en grandes producciones cinematográficas; está disponible para <i>Microsoft Windows, Mac OS X y Linux</i>.
             .row(titulo="").px-4
               .col-md-5
                 figure
@@ -430,7 +430,7 @@ export default {
       {
         titulo: 'Producción de planos',
         texto:
-          'La composición digital también interviene la producción de planos que no necesitan integrar elementos, sino llevar a cabo acciones de borrado de elementos, como eliminar un micrófono o un cable que se queda visible en el plano, retoque de los actores, extraer cromas, eliminar puntos de referencia (<i>tracks</i>), etc.',
+          'En la composición digital también interviene la producción de planos que no necesitan integrar elementos, sino llevar a cabo acciones de borrado de elementos, como eliminar un micrófono o un cable que se queda visible en el plano, retoque de los actores, extraer cromas, eliminar puntos de referencia (<i>tracks</i>), etc.',
         imagen: require('@/assets/curso/5.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -453,7 +453,7 @@ export default {
       {
         titulo: 'Composición por nodos',
         texto:
-          'La distribución de los elementos del programa es parecida; existe un visor y una panel de propiedades, pero la línea de tiempos con nodos difiere bastante de la de las capas. Cada elemento y cada efecto que se aplica es un nodo. La idea es componer basándose en un diagrama estilo de árbol, donde cada elemento se va situando con la lógica piramidal. ',
+          'La distribución de los elementos del programa es parecida; existe un visor y un panel de propiedades, pero la línea de tiempos con nodos difiere bastante de la de las capas. Cada elemento y cada efecto que se aplica es un nodo. La idea es componer basándose en un diagrama estilo de árbol, donde cada elemento se va situando con la lógica piramidal. ',
         imagen: require('@/assets/curso/52.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

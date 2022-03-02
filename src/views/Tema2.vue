@@ -160,7 +160,7 @@
     .row.mb-5
       .col-lg-6
         h3 Elipsis y transiciones
-        p Este elemento se equipará a los signos de puntuación en la escritura. La elipsis es la omisión del tiempo muerto con el objetivo de mostrar solo aquellas acciones relevantes, significativas y atractivas, por cualquier forma de transición. Se puede pasar de hoy a mañana, al próximo siglo o a los próximos milenios (Fernández & Martínez, 1999). Es la herramienta narrativa que ayuda a pasar de una secuencia a otra para avanzar en la historia en tiempo y espacio (CÁMARA, 2006). Una elipsis se realiza mediante el uso de transiciones variadas, cada una con su propio valor expresivo: corte, fundido encadenado y fundido a negro.
+        p Este elemento se equipara a los signos de puntuación en la escritura. La elipsis es la omisión del tiempo muerto con el objetivo de mostrar solo aquellas acciones relevantes, significativas y atractivas, por cualquier forma de transición. Se puede pasar de hoy a mañana, al próximo siglo o a los próximos milenios (Fernández & Martínez, 1999). Es la herramienta narrativa que ayuda a pasar de una secuencia a otra para avanzar en la historia en tiempo y espacio (CÁMARA, 2006). Una elipsis se realiza mediante el uso de transiciones variadas, cada una con su propio valor expresivo: corte, fundido encadenado y fundido a negro.
       .col-lg-6: img(src='@/assets/curso/75.jpg')
     h3 Herramientas técnicas para la edición de vídeo.
     p.mb-5 Al momento de iniciar la edición, es necesario contar con dos herramientas básicas para procesar el material “en bruto”; es decir, todo el material grabado por el dispositivo. Se trata del guion de montaje y el programa de edición. El guion técnico es el mismo documento que se utilizó en la etapa de grabación, pero que en la edición se constituye como un documento clave que consigna el orden en que se insertarán todos los elementos de la narrativa audiovisual.
@@ -168,13 +168,13 @@
       .col-lg-8
         .cajon.color-acento-botones.bg--4-claro.p-4.mb-4
           p.mb-0 El guion técnico define cómo se une una escena con otra, los tipos de plano que contiene cada escena, las transiciones entre las escenas y las secuencias definidas. Además de las imágenes, consigna los sonidos de cada escena y otro tipo de elementos gráficos como títulos o imágenes insertadas que contribuyan a dar sentido.
-    p.mb-5 En cuanto a los programas de edición, existe una amplia variedad de software con los cuales llevar a cabo el montaje de las imágenes de video. Los softwares más populares actualmente son los siguientes:
+    p.mb-5 En cuanto a los programas de edición, existe una amplia variedad de software con los cuales llevar a cabo el montaje de las imágenes de video. Los <em>software</em> más populares actualmente son los siguientes:
     .row.mb-5.justify-content-center
       .col-lg-9
         LineaTiempoD.color-primario
           div.row(numero="1" titulo="<i>Final Cut Pro</i> (Mac):").p-4.align-items-center
             .col-lg-8
-              p Se establecen las posiciones y movimientos de cámara acorde a lo definido en el guión técnico y en el <i>storyboard</i>, de igual manera se dispone de la ubicación en el espacio de los elementos de la escena y los personajes.
+              p Se establecen las posiciones y movimientos de cámara acorde a lo definido en el guion técnico y en el <i>storyboard</i>, de igual manera se dispone de la ubicación en el espacio de los elementos de la escena y los personajes.
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/76.svg' style='border-radius: 25px')
@@ -236,39 +236,39 @@
             img(src="@/assets/curso/88.jpg")
     p.mb-5 Ahora bien, el proceso de edición se compone de las siguientes tareas:
     .row.mb-5
-      .col-lg-4.mb-3
+      .col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/89.jpg' alt='AvatarTop' style='width:400px')
+          img(src='@/assets/curso/89.jpg' alt='AvatarTop' style='width:100%')
           .tarjetas-up_card.p-4
             .title.d-flex.align-items-center
               h4.mb-5 1. Arreglos
             p Se revisa todo el material que se ha grabado, se evalúa lo que funciona y lo que no: cortar secciones de una pista que desordenan la mezcla, mover una sección a una nueva parte de la canción, eliminar secciones por completo si no agregan valor, etc.
             a.boton.color-acento-botones.indicador__container.text-system(@click="modal1 = true")
-              span.fw-bold Ver mas 
+              span.fw-bold Ver más 
               .indicador--click(v-if="mostrarIndicador")
-      .col-lg-4.mb-3
+      .col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/90.jpg' alt='AvatarTop' style='width:400px')
+          img(src='@/assets/curso/90.jpg' alt='AvatarTop' style='width:100%')
           .tarjetas-up_card.p-4
             .title.d-flex.align-items-center
               h4.mb-5 2. Proceso de Mezcla
             p Se encarga de fusionar, en una unidad cohesionada, los distintos sonidos depurados. Es una función con varias tareas fundamentales, que todos los técnicos en sonido deberán saber llevar a cabo durante la etapa del proceso de postproducción.
             a.boton.color-acento-botones.indicador__container.text-system(@click="modal2 = true")
-              span.fw-bold Ver mas 
+              span.fw-bold Ver más 
               .indicador--click(v-if="mostrarIndicador")
             
-      .col-lg-4.mb-3
+      .col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/91.jpg' alt='AvatarTop' style='width:400px')
+          img(src='@/assets/curso/91.jpg' alt='AvatarTop' style='width:100%')
           .tarjetas-up_card.p-4
             .title.d-flex.align-items-center
               h4.mb-5 3. Masterización
             p Una vez que se ha realizado todas estas tareas y la mezcla está finalizada, es momento de pasar a la última etapa, es decir al proceso de masterización que consiste en potenciar la mezcla y dejarla en un solo archivo estéreo.
             a.boton.color-acento-botones.indicador__container.text-system(@click="modal3 = true")
-              span.fw-bold Ver mas 
+              span.fw-bold Ver más 
               .indicador--click(v-if="mostrarIndicador")
     ModalA(:abrir-modal.sync="modal1")
         p.fw-bold 1. Arreglos
@@ -328,7 +328,7 @@
       table
         thead
           tr.bg-white
-            th Dialogos
+            th Diálogos
             th Efectos
             th.fst-italic Foley
             th Música
@@ -343,7 +343,7 @@
                 <b>1. Sonido ambiente o efectos de ambiente.</b>
                 br
                 br
-                | También conocido como room tone, corresponde a todos aquellos sonidos que nos permiten identificar un espacio; es decir el sonido característico de un lugar cuando se encuentra en “silencio”, por ejemplo, el sonido de los pájaros cantando en el bosque.
+                | También conocido como <em>room tone</em>, corresponde a todos aquellos sonidos que nos permiten identificar un espacio; es decir el sonido característico de un lugar cuando se encuentra en “silencio”, por ejemplo, el sonido de los pájaros cantando en el bosque.
                 br
                 br
                 <b>2. Efectos especiales</b>
@@ -436,8 +436,8 @@
             :style="{'background-image': `url(${require('@/assets/curso/97.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Cualquier <i>software</i> de sonido, que reúna características de calidad, funcionalidad y pertinencia, será para los productores, desarrolladores y creativos en general, una herramienta esencial. Además del <i>After Effects</i>, el cual gracias a su versatilidad incluye también el tratamiento de audio, existen otros <i>softwares</i> de alta aceptación en el mercado y en las organizaciones.
-    p.mb-5 Siendo así, los <i>softwares</i> para edición de sonido, algunos de pago y otros gratuitos, son:
+            p.mb-0 Cualquier <i>software</i> de sonido, que reúna características de calidad, funcionalidad y pertinencia, será para los productores, desarrolladores y creativos en general, una herramienta esencial. Además del <i>After Effects</i>, el cual gracias a su versatilidad incluye también el tratamiento de audio, existen otros <i>software</i> de alta aceptación en el mercado y en las organizaciones.
+    p.mb-5 Siendo así, los <i>software</i> para edición de sonido, algunos de pago y otros gratuitos, son:
     .row.mb-5.justify-content-center
       .col-lg-9
         LineaTiempoD.color-primario
@@ -446,13 +446,13 @@
               .rounded-2
                 img(src='@/assets/curso/98.svg' style='border-radius: 25px')
             .col-lg-8
-              p Programas de edición profesional de audio, de los más completos que hay en el mercado. Ofrece opción de edición y mezcla multipista, un medidor de volumen ITU, que muestra información sobre los niveles de rango, promedio y pico, la reducción de wido, y que permite instalar plug-ins. Su interfaz es muy amigable y compatible con casi todos los formatos de audio que se usan hoy día.
+              p Programas de edición profesional de audio, de los más completos que hay en el mercado. Ofrece opción de edición y mezcla multipista, un medidor de volumen ITU, que muestra información sobre los niveles de rango, promedio y pico, la reducción de ruido, y que permite instalar plug-ins. Su interfaz es muy amigable y compatible con casi todos los formatos de audio que se usan hoy día.
           div.row(numero="2" titulo="<i>Logic Pro X</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
                 img(src='@/assets/curso/99.svg' style='border-radius: 25px')
             .col-lg-8
-              p Producto Apple que sólo está disponible para macOS. Es un DAW <i>(Digital Audio Workstation)</i> con funciones básicas y avanzadas. Una de sus funciones más particulares es el Smart Tempo, que consiste en sincronizar diferentes pistas de un proyecto automáticamente.
+              p Producto Apple que solo está disponible para macOS. Es un DAW <i>(Digital Audio Workstation)</i> con funciones básicas y avanzadas. Una de sus funciones más particulares es el Smart Tempo, que consiste en sincronizar diferentes pistas de un proyecto automáticamente.
           div.row(numero="3" titulo="<i>Ableton Live 10</i>").p-4.align-items-center
             .col-lg-3
               .rounded-2
@@ -493,7 +493,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3
           .titulo-segundo.color-primario
-            h3 Para finalizar este contenido, se le recomienda visitar los siguientes enlaces para ampliar su conocimiento y apropiación sobre <i>softwares</i> para edición de sonido: 
+            h3 Para finalizar este contenido, se le recomienda visitar los siguientes enlaces para ampliar su conocimiento y apropiación sobre <i>software</i> para edición de sonido: 
           a(href="https://www.crehana.com/pe/blog/video/mejores-programas-edicion-audio/#grg-band" target="_blank")
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
@@ -610,9 +610,15 @@ export default {
     bottom: -85%
     background-color: rgba(255,255 ,255 ,0.9)
       transition: opacity .3s ease-in-out
+
+    @media (max-width: $bp-max-lg )
+      bottom: -90%
   &:hover
     .tarjetas-up_card
-      bottom: -35%
+      bottom: -30%
+      @media (max-width: $bp-max-lg )
+        bottom: -60%
+
 .vr
   i
     color: #D44F4A !important
