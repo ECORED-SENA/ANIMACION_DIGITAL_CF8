@@ -140,7 +140,7 @@
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center MEJORA TUS FOTOS Y VIDEOS con este simple TRUCO (composición).
-          a(href="https://www.youtube.com/watch?v=Cu9ocpe0SrY&ab_channel=Hanns" target="_blank")
+          a(href="https://www.youtube.com/watch?v=pCHmible2yA" target="_blank")
             .bg--1-claro2.display-block.rounded-2.p-2.d-flex.w-100.mb-2.hover
               img(src='@/assets/curso/18.svg' style='width: 25px').me-2
               p.mb-0.fw-bold.d-flex.align-items-center.justify-content-center Mr. Robot: Encuadres que rompen las reglas de composición (Análisis).
