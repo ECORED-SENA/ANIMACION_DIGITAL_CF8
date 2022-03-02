@@ -230,10 +230,10 @@ export default {
     },
     {
       texto:
-        'Cortés, J. (2021). Los 8 Mejores Programas de Composición Digital. [Web log post]. Notodoanimacion. ',
+        'Cortés, J. (2022). Los 8 Mejores Programas de Composición Digital | Gratis (Open Source) y de pago. Notodoanimacion. ',
       tipo: 'Pagina web',
       link:
-        'https://digitalsynopsis.com/design/cinema-palettes-famous-movie-colors/',
+        'https://www.notodoanimacion.es/programas-composicion-digital-gratis-pago',
     },
     {
       texto:
