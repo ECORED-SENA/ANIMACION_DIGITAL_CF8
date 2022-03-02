@@ -615,7 +615,7 @@ export default {
       bottom: -90%
   &:hover
     .tarjetas-up_card
-      bottom: -30%
+      bottom: 0
       @media (max-width: $bp-max-lg )
         bottom: -60%
 
